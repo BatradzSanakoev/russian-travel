@@ -1,0 +1,7 @@
+@import url('../website/__url-heading/website__url-heading.css');
+@import url('../website/__link/website__link.css');
+
+.website {
+  grid-area: place-website;
+  align-self: flex-end;
+}
