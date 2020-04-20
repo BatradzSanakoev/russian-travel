@@ -1,3 +1,15 @@
 .logo {
   max-width: 15%;
 }
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+ .logo {
+   min-width: 44%;
+ }
+}
+
+@media screen and (max-width: 424px) {
+  .logo {
+    min-width: 44%;
+  }
+ }

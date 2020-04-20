@@ -1,17 +1,27 @@
-
+@import url('./_selected/lang-link_selected.css');
 
 .lang-link {
-    text-decoration: none;
-    color: #ffffff;
+  text-decoration: none;
+  color: #ffffff;
 
-    font-size: 1.5rem;
-    line-height: 1.15;
+  font-size: 1.5rem;
+  line-height: 1.15;
 
 }
 
 .lang-link:hover {
-  text-decoration-line: underline;
   opacity: .3;
   transition: opacity .7s ease;
 }
 
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  .lang-link {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .lang-link {
+    font-size: 4rem;
+  }
+}

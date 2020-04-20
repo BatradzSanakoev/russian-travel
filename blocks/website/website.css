@@ -5,3 +5,17 @@
   grid-area: place-website;
   align-self: flex-end;
 }
+
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+ .website {
+   display: none;
+ }
+}
+
+@media screen and (max-width: 424px) {
+  .website {
+    display: none;
+  }
+ }
+
