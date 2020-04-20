@@ -5,8 +5,8 @@
 @import url('./__item/intro__item.css');
 
 .intro {
-    margin: 92px auto;
-    max-width: calc(100% - 296px);
+    margin: 7% auto;
+    max-width: 77%;
     display: flex;
     justify-content: flex-start;
 }

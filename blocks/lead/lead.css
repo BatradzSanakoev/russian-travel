@@ -4,8 +4,8 @@
 @import url('./__caption/lead__caption.css');
 
 .lead {
-    margin: 56px auto 46px;
-    max-width: calc(100% - 296px);
+    margin: 5% auto 4%;
+    max-width: 77%;
     display: flex;
     flex-direction: column;
     align-items: center;

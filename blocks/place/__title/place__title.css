@@ -2,6 +2,6 @@
   margin: 0;
   grid-area: place-title;
   font-weight: 900;
-  font-size: 72px;
-  line-height: 76px;
+  font-size: 6rem;
+  line-height: 1.15;
 }
