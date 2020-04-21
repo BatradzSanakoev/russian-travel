@@ -6,13 +6,8 @@
   align-items: center;
 }
 
-@media screen and (min-width: 425px) and (max-width: 767px) {
-  .header {
-    max-width: 90%;
-  }
-}
 
-@media screen and (max-width: 424px) {
+@media screen and (min-width: 768px) and (max-width: 1023px)  {
   .header {
     max-width: 90%;
   }

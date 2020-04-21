@@ -6,20 +6,4 @@
   line-height: 1.5;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .intro__list {
-    font-size: 1.2rem;
-  }
-}
 
-@media screen and (min-width: 425px) and (max-width: 767px) {
-  .intro__list {
-    font-size: 45px;
-  }
-}
-
-@media screen and (max-width: 424px) {
-  .intro__list {
-    font-size: 45px;
-  }
-}

@@ -3,3 +3,21 @@
   min-width: 100%;
   object-fit: cover;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px)  {
+  .place__image {
+    max-width: 42%;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px)  {
+  .place__image {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 424px)  {
+  .place__image {
+    width: 100%;
+  }
+}
