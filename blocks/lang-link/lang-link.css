@@ -5,6 +5,8 @@
   color: #ffffff;
 
   font-size: 1.5rem;
+
+  font-size: calc( (100vw - 80rem)/(240 - 80) * (5 - 1.5) + 1.5rem);
   line-height: 1.15;
 
 }
@@ -16,18 +18,18 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px)  {
   .lang-link {
-    font-size: 1.275rem;
+    font-size: calc( (100vw - 64rem)/(80 - 64) * (2 - 1.5) + 1.5rem);
   }
 }
 
 @media screen and (min-width: 425px) and (max-width: 767px)  {
   .lang-link {
-    font-size: 1.2rem;
+    font-size: calc( (100vw - 48rem)/(64 - 48) * (1.4 - 1.25) + 1.25rem);
   }
 }
 
 @media screen and (min-width: 320px) and (max-width: 424px)  {
   .lang-link {
-    font-size: 1.2rem;
+    font-size: calc( (100vw - 20rem)/(26.5625 - 20) * (1.2 - 1.1) + 1.1rem);
   }
 }
