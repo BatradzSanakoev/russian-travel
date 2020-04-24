@@ -2,7 +2,7 @@
   text-decoration: none;
   color: #ffffff;
   text-decoration-line: underline;
-  font-size: 1.125rem;
+  font-size: calc( (100vw - 80rem)/(240 - 80) * (3.3 - 1.125) + 1.125rem);
   line-height: 1.2;
 }
 
@@ -10,9 +10,3 @@
   opacity: .8;
   transition: opacity .7s ease;
 }
-
-@media screen and (min-width: 768px) and (max-width: 1023px)  {
-  .website__link {
-    font-size: 18px;
-  }
- }

@@ -2,8 +2,30 @@
   padding: 0;
   margin-top: 3%;
   list-style: none;
-  font-size: .8rem;
+  font-size: calc( (100vw - 80rem)/(240 - 80) * (2.5 - .8) + .8rem);
   line-height: 1.5;
 }
 
+@media screen and (min-width: 1024px) and (max-width: 1279px)  {
+  .intro__list {
+    font-size: calc( (100vw - 64rem)/(80 - 64) * (1.2 - .8) + .8rem);
+  }
+}
 
+@media screen and (min-width: 768px) and (max-width: 1023px)  {
+  .intro__list {
+    font-size: calc( (100vw - 48rem)/(64 - 48) * (1.2 - .8) + .8rem);
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  .intro__list {
+    font-size: calc( (100vw - 26.5625rem)/(48 - 26.5625) * (1.2 - .8) + .8rem);
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 424px) {
+  .intro__list {
+    font-size: calc( (100vw - 20rem)/(26.5625 - 20) * (.8 - .6) + .6rem);
+  }
+}
