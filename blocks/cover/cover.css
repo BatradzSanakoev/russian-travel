@@ -1,10 +1,13 @@
 @import url('./__title/cover__title.css');
 @import url('./__subtitle/cover__subtitle.css');
 @import url('./__overlay/cover__overlay.css');
+@import url('./__text-wrapper/cover__text-wrapper.css');
 
 .cover {
   max-width: 93%;
   margin: 0 auto;
+  position: relative;
+  padding-bottom: calc(740*100% / 1184);
   background-image: url('../../images/__background.jpg');
   background-size: cover;
 }

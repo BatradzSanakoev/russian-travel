@@ -1,6 +1,5 @@
 .cover__title {
   margin: 0 0 2%;
-  max-width: 48%;
   font-weight: 900;
   font-size: calc( (100vw - 80rem)/(240 - 80) * (14 - 4.5) + 4.5rem);
   line-height: 1.12;
@@ -9,28 +8,24 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1279px)  {
   .cover__title {
-    max-width: 52%;
-    font-size: calc( (100vw - 64rem)/(80 - 64) * (5.5 - 4.5) + 4.5rem);
+    font-size: calc( (100vw - 64rem)/(80 - 64) * (5.6 - 4.5) + 4.5rem);
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px)  {
   .cover__title {
-    max-width: 73%;
-    font-size: calc( (100vw - 48rem)/(64 - 48) * (6 - 4.5) + 4.5rem);
+    font-size: calc( (100vw - 48rem)/(64 - 48) * (7 - 5) + 5rem);
   }
 }
 
 @media screen and (min-width: 425px) and (max-width: 767px)  {
   .cover__title {
-    max-width: 90%;
     font-size: calc( (100vw - 26.5625rem)/(48 - 26.5625) * (5.5 - 3) + 3rem);
   }
 }
 
 @media screen and (min-width: 320px) and (max-width: 424px)  {
   .cover__title {
-    max-width: 79%;
-    font-size: calc( (100vw - 20rem)/(26.5625 - 20) * (2.8 - 2) + 2rem);
+    font-size: calc( (100vw - 20rem)/(26.5625 - 20) * (3 - 2.5) + 2.5rem);
   }
 }
